@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raketos paleidimo seka</title>
+	<script type="text/javascript" src="js/rocket.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/rocket.css">
+</head>
+<body class="body-state1">
+	<div class="left">
+		<div class="state1">
+			<h1>JS Raketos paleidimas</h1>
+			<a href="#" class="button" onclick="changeState(2);">Paleisti!</a>
+		</div>
+
+		<div class="state2">
+			<h1 id="countdown">10</h1>
+			<a href="#" class="button" onclick="changeState(1);">Nutraukti!</a>
+		</div>
+
+		<div class="state3">
+			<h1>Pakilimas!</h1>
+		</div>
+
+		<div class="state4">
+			<h1>Puikiai!</h1>
+			<a href="#" class="button" onclick="changeState(1);">Pakartoti?</a>
+		</div>
+
+		<div class="state5">
+			<h1>O ne!</h1>
+			<a href="#" class="button" onclick="changeState(1);">Pabandyk dar kartą!</a>
+		</div>
+
+
+
+	</div>
+	<div class="right">
+		<div class="ground"></div>
+		<div class="raketa"></div>
+
+	</div>
+</body>
+</html>
